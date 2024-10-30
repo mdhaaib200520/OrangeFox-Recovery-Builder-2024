@@ -10,11 +10,10 @@ on:
         type: choice
         options:
         - 12.1
-        - 11.0
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://github.com/kinguser981/android_device_xiaomi_marble-OFRP'
+        default: 'https://github.com/mdhaaib200520/Symphony_Z50'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch'
         required: true
@@ -22,7 +21,7 @@ on:
       DEVICE_PATH:
         description: 'Specify your device path.'
         required: true
-        default: 'device/xiaomi/marble'
+        default: 'device/symphony/Symphony_Z50'
       DEVICE_NAME:
         description: 'Specify your Device Codename.'
         required: true
